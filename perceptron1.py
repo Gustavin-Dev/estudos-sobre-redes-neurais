@@ -24,7 +24,7 @@ def treinarRede():
             erro = saidasEsperadas[i] - saidaCalculada
             erroTotal += abs(erro)
 
-            print(f"Entrada: {entradaAtual}, Esperado: {saidasEsperadas[i]}, Calculado: {saidaCalculada}")
+            
             print("Pesos atuais:", pesos)
 
             if erro != 0:
