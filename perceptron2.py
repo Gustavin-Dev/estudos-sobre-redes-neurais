@@ -55,3 +55,8 @@ def treinarRede():
 
 # Inicia o treinamento
 treinarRede()
+print("rede neural treinada!")
+print(calcularSaida(entradas[0]))
+print(calcularSaida(entradas[1]))
+print(calcularSaida(entradas[2]))
+print(calcularSaida(entradas[3]))

@@ -38,3 +38,8 @@ def treinarRede():
         print("Nova tentativa com pesos atualizados!\n")
 
 treinarRede()
+print("Rede neural treinada!")
+print(calcularSaida(entradas[0]))
+print(calcularSaida(entradas[1]))
+print(calcularSaida(entradas[2]))
+print(calcularSaida(entradas[3]))
